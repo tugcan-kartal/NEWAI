@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { auth } from './FirebaseConfig.js';
+import { auth } from '../FirebaseConfig.js';
 import Logo from "../static/logo_transparent.png";
 import AiWallpaper from "../static/ai-walpaper.jpg";
 
@@ -17,7 +17,7 @@ const SignIn = () => {
     try {
       await signInWithEmailAndPassword(auth, email.current.value, password.current.value);
       // Giriş yaptıktan sonra yönlendirme
-      navigate('/homepage');
+      navigate('/newsview');
     } catch (err) {
       console.log(err.message);
     }
@@ -32,7 +32,7 @@ const SignIn = () => {
 
         <div className='flex flex-col w-60vw ml-[7vw] mt-[5vh]'>
           <div className='w-[10vw]'>
-            <Link to="/">
+            <Link to="">
                 <img src={Logo} alt='not found'/>
             </Link>
           </div>

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from './FirebaseConfig.js';
+import { auth } from '../FirebaseConfig.js';
 import Logo from "../static/logo_transparent.png";
 import AiWallpaper from "../static/ai-walpaper.jpg";
 
@@ -33,7 +33,7 @@ const SignUp = () => {
 
         <div className='flex flex-col w-60vw ml-[7vw] mt-[5vh]'>
           <div className='w-[10vw]'>
-            <Link to="/">
+            <Link to="">
               <img src={Logo} alt='not found'/>
             </Link>
           </div>

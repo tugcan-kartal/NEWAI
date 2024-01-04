@@ -25,18 +25,18 @@ const Navbar = () => {
 
               <div className='flex'>
                 
-                <Link className='flex items-center md:w-[10vw] md:h-[5vh] w-[45vw] h-[5vh] object-cover hover:opacity-80 transition-all duration-300' to="/homepage">
+                <Link className='flex items-center md:w-[10vw] md:h-[5vh] w-[45vw] h-[5vh] object-cover hover:opacity-80 transition-all duration-300' to="/newsview">
                   <div>
                     <img alt='not found' src={Logo} />
                   </div>
                 </Link>
 
                 <div className='md:flex hidden items-center pl-4 gap-x-8'>
-                  <Link className='flex items-center gap-x-[0.5vw] hover:underline hover:text-blue-500 transition-colors duration-300' to="/homepage">
+                  <Link className='flex items-center gap-x-[0.5vw] hover:underline hover:text-blue-500 transition-colors duration-300' to="/newsview">
                     <div>AI NEWS</div>
                     <i className="fa-solid fa-newspaper text-blue-500"></i>
                   </Link>
-                  <Link className='flex items-center gap-x-[0.5vw] hover:underline hover:text-blue-500 transition-colors duration-300' to="talkwithai">
+                  <Link className='flex items-center gap-x-[0.5vw] hover:underline hover:text-blue-500 transition-colors duration-300' to="/talkwithai">
                     <div>TALK WITH AI</div>
                     <i className="fa-solid fa-robot text-blue-500"></i>
                   </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
               <div className='flex gap-x-5'>
                 
-                  <Link to="SignUp">
+                  <Link to="/SignUp">
                     <div className='flex gap-x-2 hover:underline hover:text-blue-500 transition-colors duration-300 cursor-pointer'>
                       <div className='md:block hidden'>SIGN UP</div>
                     </div>
@@ -100,9 +100,9 @@ const Navbar = () => {
 
       {/* Burası ise menün içerik kısmı tıklandıktan sonraki */}
       <div className="flex flex-col h-full justify-start mt-[15vh] ml-[5vw]">
-          <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/homepage">Home</Link>
+          <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/newsview">Home</Link>
           <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/talkwithai">Talk With AI</Link>
-          <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/homepage">News</Link>
+          <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/newsview">News</Link>
           {/* <Link className="text-3xl font-bold mb-4 hover:underline hover:text-blue-500 transition-colors duration-300" to="/fun">Have Fun</Link> */}
 
           <div className='py-[0.5px] w-[80vw] my-[5vh] bg-black'></div>
