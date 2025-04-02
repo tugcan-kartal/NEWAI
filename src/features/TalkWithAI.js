@@ -7,8 +7,8 @@ const TalkWithAI = () => {
         <iframe
           title="Chatbot"
           style={{ width: '100%', height: '100%', border: 'none' }}
-          src='https://chat.openai.com/'
-          // src="https://hix.ai/chat"
+          // src='https://chat.openai.com/'
+          src="https://hix.ai/chat"
         ></iframe>
       </div>
     </div>

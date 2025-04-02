@@ -83,8 +83,8 @@ const NewsView = () => {
                                 title="Chatbot"
                                 width="500"
                                 height="500"
-                                src='https://chat.openai.com/'
-                                //src="https://hix.ai/chat"
+                                // src='https://chat.openai.com/'
+                                src="https://hix.ai/chat"
                             ></iframe>
                         </div>
                     </div>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8bcba16.css",
+    "main.js": "/static/js/main.860a1b89.js",
+    "static/js/787.562ca0ac.chunk.js": "/static/js/787.562ca0ac.chunk.js",
+    "static/media/ai-walpaper.jpg": "/static/media/ai-walpaper.4e0997518b0827d76a32.jpg",
+    "static/media/Avenir.ttc": "/static/media/Avenir.bd849aa48220dc5266c4.ttc",
+    "static/media/ITCAvantGardePro-Bold.otf": "/static/media/ITCAvantGardePro-Bold.e7bb9f7b5abf08aa7078.otf",
+    "index.html": "/index.html",
+    "main.b8bcba16.css.map": "/static/css/main.b8bcba16.css.map",
+    "main.860a1b89.js.map": "/static/js/main.860a1b89.js.map",
+    "787.562ca0ac.chunk.js.map": "/static/js/787.562ca0ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8bcba16.css",
+    "static/js/main.860a1b89.js"
+  ]
+}
